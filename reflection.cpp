@@ -1,4 +1,4 @@
-#include<stdio.h>
+   #include<stdio.h>
 #include<conio.h>
 #include<graphics.h>
 #include<math.h>
@@ -17,10 +17,10 @@ int main()
  getch();
  cleardevice();
  printf("\n\n\n triangle after reflection");
- line(x1,-y1+200,x2,-y2+200);
- line(x1,-y1+200,x3,-y3+200);
- line(x2,-y2+200,x3,-y3+200);
- delay(5000);
+ line(x1,-y1+500,x2,-y2+500);
+ line(x1,-y1+500,x3,-y3+500);
+ line(x2,-y2+500,x3,-y3+500);
+ delay(1000);
  getch();
  closegraph();
  return(0);
